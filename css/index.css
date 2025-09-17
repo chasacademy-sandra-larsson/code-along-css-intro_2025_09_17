@@ -14,6 +14,133 @@ body {
 
 
 /* Styling av sidhuvud */
+header {
+    background: #5a67d8;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+}
+
+/* Styling av navigation  */
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 12px;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    padding: 12px 20px;
+    border-radius: 8px;
+}
 
 
+/* Styling av huvudinnehåll */
 
+main {
+    max-width: 900px;
+    padding: 0 25px;
+    margin: 50px auto;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 35px;
+    padding: 35px;
+    border-radius: 12px;
+    border-left: 6px solid #667eea;
+}
+
+section h2 {
+    color: #2d3748;
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+section h3 {
+    color: #2d3748;
+    font-size: 18px;
+}
+
+section h4 {
+    color: #718096;
+    font-weight: 500;
+}
+
+section p {
+    margin-bottom: 18px;
+    line-height: 1.3;
+    color: #4a5568;
+}
+
+section strong {
+    color: #667eea;
+}
+
+/* List styling */
+
+ul, ol {
+    margin: 18px 0;
+    padding-left: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+li {
+    margin-bottom: 10px;
+    color: #4a5568;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    margin: 25px 0;
+}
+
+article {
+    background-color: #4a5568;
+    padding: 25px;
+}
+
+article button {
+    background-color: #ff7791;
+    color: #fff;
+    padding: 14px 30px;
+    font-size: 18px;
+    cursor: pointer;
+   
+}
+
+footer {
+    background-color: #90cdf4;
+    padding: 40px;
+}
+
+footer p {
+    margin-bottom: 12px;;
+}
+
+footer a {
+    color: #000;
+    
+}
